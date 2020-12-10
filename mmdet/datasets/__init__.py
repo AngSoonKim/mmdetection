@@ -11,7 +11,7 @@ from .utils import replace_ImageToTensor
 from .voc import VOCDataset
 from .wider_face import WIDERFaceDataset
 from .xml_style import XMLDataset
-from .my_dataset import MyDataset
+#from .my_dataset import MyDataset
 
 __all__ = [
     'CustomDataset', 'XMLDataset', 'CocoDataset', 'DeepFashionDataset',
@@ -19,5 +19,5 @@ __all__ = [
     'LVISV1Dataset', 'GroupSampler', 'DistributedGroupSampler',
     'DistributedSampler', 'build_dataloader', 'ConcatDataset', 'RepeatDataset',
     'ClassBalancedDataset', 'WIDERFaceDataset', 'DATASETS', 'PIPELINES',
-    'build_dataset', 'replace_ImageToTensor','Mydataset'
-]#Also Added in the list
+    'build_dataset', 'replace_ImageToTensor'
+]#Also Added(Removed) in the list 'Mydataset'
